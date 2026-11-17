@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — On/Us</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><a class="brand" href="/">On/Us</a></header>
+<main>
+<h1>Privacy Policy</h1>
+<p><strong>On/Us</strong> ("the App", "we", "our")<br />
+Last updated: 2026-08-12</p>
+<hr />
+<h2>1. Introduction</h2>
+<p>On/Us is a private social network for close friends. This policy explains what personal data we collect, how we use it, and your rights. By using On/Us you agree to the practices described here.</p>
+<hr />
+<h2>2. Data We Collect</h2>
+<h3>2.1 Account Information</h3>
+<ul>
+<li>Email address (for authentication and verification)</li>
+<li>Name (first and last)</li>
+<li>Phone number and date of birth (collected at sign-up)</li>
+<li>Profile image (optional — uploaded by you)</li>
+<li>Profile message and link (optional)</li>
+</ul>
+<h3>2.2 Content You Create</h3>
+<ul>
+<li>Photos and short videos you capture and upload (stored on AWS S3)</li>
+<li>Text captions, friend tags, and emotion tags you attach to posts</li>
+<li>Chat messages you send</li>
+</ul>
+<h3>2.3 Location Data</h3>
+<ul>
+<li><strong>GPS coordinates at the moment of capture only.</strong> Coordinate storage is off until you turn it on: the first time the app needs your location it asks once, and until you choose "on" no coordinates are stored. You can turn it off again at any time in Settings, and posts captured after that carry no coordinates.</li>
+<li>We do not track your location continuously or in the background, and we never record routes or dwell time.</li>
+<li><strong>Storing a coordinate is not the same as sharing it.</strong> A stored coordinate is visible only to you unless you attach a place name to that post. Posts without a place name never expose their coordinates to anyone else — your friends receive no latitude or longitude for them.</li>
+<li>Coordinates are used to show a map of the places you named, and of the places your friends named.</li>
+</ul>
+<h3>2.4 Device and Technical Data</h3>
+<ul>
+<li>Device token for push notifications (APNs / FCM)</li>
+<li>App usage logs (errors, crash reports) for debugging</li>
+<li>Usage events: the type and time of actions such as opening the feed, uploading a post or sending a message. They contain no post, photo or message content.</li>
+</ul>
+<hr />
+<h2>3. How We Use Your Data</h2>
+<table>
+<thead>
+<tr>
+<th>Purpose</th>
+<th>Legal Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Provide the core service (posts, chat, friends)</td>
+<td>Contract performance</td>
+</tr>
+<tr>
+<td>Send push notifications you have enabled</td>
+<td>Consent</td>
+</tr>
+<tr>
+<td>Display your posts on the map (When/Where feature)</td>
+<td>Contract performance</td>
+</tr>
+<tr>
+<td>Detect abuse and enforce limits (daily upload cap, friend limit)</td>
+<td>Legitimate interest</td>
+</tr>
+<tr>
+<td>Improve the service, including analysis of usage patterns and prediction of service use (for example, whether members stop using the app)</td>
+<td>Legitimate interest</td>
+</tr>
+</tbody>
+</table>
+<p>We <strong>do not</strong> sell your data to third parties.<br />
+We <strong>do not</strong> use your data for advertising.<br />
+Analysis and prediction use usage events and totals. They do not use the content of your posts, photos, messages or coordinates.<br />
+We <strong>do not</strong> profile you for comparison metrics (no follower counts, no reaction counts).</p>
+<hr />
+<h2>4. Future AI Features</h2>
+<p>We may introduce AI-powered features in the future. If we do, this policy will be updated to describe what data those features use and how, before they become available to you.</p>
+<hr />
+<h2>5. Who Sees Your Content</h2>
+<ul>
+<li>Your posts are visible <strong>only to your accepted friends</strong> (up to 10 people)</li>
+<li>Chat messages are visible only to the participants of that conversation</li>
+<li>Location pins (Places map) are visible only to your accepted friends, and only for posts where you attached a place name yourself. Coordinates of posts with no place name are returned to you alone</li>
+<li><strong>When a friendship ends, access ends with it.</strong> Removing a friend immediately revokes their access to your posts, pins and place history, and removes from your own screens the posts and map pins that originated from their posts, including ones you were tagged in. Content you captured yourself is unaffected</li>
+<li>Your email address and phone number are <strong>never shown to other users</strong>, including your friends</li>
+</ul>
+<p>We do not make any content publicly searchable or discoverable.</p>
+<hr />
+<h2>6. Data Retention</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Retention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Posts (photos / videos)</td>
+<td>Until you delete them, or 30 days after your account deletion request</td>
+</tr>
+<tr>
+<td>Chat messages</td>
+<td>Kept in the conversation. After your account is deleted (30 days after the deletion request), messages you sent, including attachments, stay in the other participant's chat history, and your name is shown as "Unknown"</td>
+</tr>
+<tr>
+<td>Location data</td>
+<td>Tied to the post — deleted when post is deleted</td>
+</tr>
+<tr>
+<td>Account data (including profile images)</td>
+<td>30 days after account deletion request, then deleted. If you sign in or reset your password within those 30 days, the account is restored</td>
+</tr>
+<tr>
+<td>Feedback and inquiries</td>
+<td>30 days after account deletion request, then deleted (attachments included)</td>
+</tr>
+<tr>
+<td>Reports</td>
+<td>Kept, whether you made the report or were reported, including after your account is deleted</td>
+</tr>
+<tr>
+<td>Usage events</td>
+<td>After your account is deleted, kept without any link to you (the identifier is replaced with a random value). Deleted 24 months after creation; only monthly totals remain</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>7. Third-Party Services</h2>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Purpose</th>
+<th>Privacy Policy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AWS S3 / CloudFront</td>
+<td>Media storage and delivery</td>
+<td>https://aws.amazon.com/privacy/</td>
+</tr>
+<tr>
+<td>Firebase (FCM)</td>
+<td>Push notifications</td>
+<td>https://firebase.google.com/support/privacy</td>
+</tr>
+<tr>
+<td>Apple APNs</td>
+<td>iOS push notifications</td>
+<td>https://www.apple.com/legal/privacy/</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>8. Your Rights</h2>
+<p>You may at any time:</p>
+<ul>
+<li><strong>Access</strong> the data we hold about you — contact us at privacy@joinonus.app</li>
+<li><strong>Delete</strong> your account. Section 6 lists what is deleted and what is kept</li>
+<li><strong>Withdraw consent</strong> for push notifications (in iOS Settings)</li>
+<li><strong>Opt out</strong> of location storage entirely (in-app Settings) — coordinate storage stays off until you explicitly turn it on, and turning it off later stops storage for every subsequent capture</li>
+</ul>
+<hr />
+<h2>9. Children</h2>
+<p>On/Us is not directed at children under 14. We do not knowingly collect data from children under 14. If you believe a child has registered, contact us at privacy@joinonus.app and we will delete the account.</p>
+<hr />
+<h2>10. Changes to This Policy</h2>
+<p>We will notify you in-app at least 7 days before any material change takes effect. Continued use after the effective date constitutes acceptance.</p>
+<hr />
+<h2>11. Contact</h2>
+<p>privacy@joinonus.app</p>
+</main>
+<footer>
+<a href="/privacy">Privacy Policy</a> · <a href="/terms">Terms of Service</a> · <a href="/support">Support</a>
+</footer>
+</body>
+</html>
